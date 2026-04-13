@@ -15,24 +15,23 @@
 ## Philosophy
 
 The prevailing assumption in AI tool design is that shorter is better. Fewer tokens. 
-Faster responses. Compressed answers. This assumption is reasonable in many contexts — 
-if you ask an AI what the capital of France is, you need one word, not a paragraph.
+Faster responses. Compressed answers. This assumption is fully reasonable in most contexts, for example if you ask an agent what the capital of France is, you need one word, not a paragraph.
 
-But software development is not a trivia game. Software development is a discipline 
+However, areas like software development are not a trivia game. Software development is a discipline 
 in which context, reasoning, and explanation are often more valuable than the answer 
-itself. When a developer asks "why is this re-rendering?", the one-line answer 
-("inline object prop causes re-render") is technically correct but practically 
-insufficient. The developer who receives that answer may fix the immediate symptom 
-without understanding the underlying mechanism, and will encounter the same class of 
+itself. If a developer asks "why is this re-rendering?", the one-line answer 
+("inline object prop causes re-render") is obviously correct but it's practically 
+shallow. The developer who receives that answer may fix the symptom 
+without understanding the underlying mechanism, and will probably encounter the same class of 
 bug again.
 
 Yapper is built on the premise that the answer is necessary but not sufficient. 
 The reasoning behind the answer, the context in which it applies, the mechanism by 
-which the fix works, and the edge cases where it might not — these are the things 
+which the fix works, and the edge cases where it might not - these are the things 
 that turn a correct answer into genuine understanding.
 
-In other words: Yapper does not produce better answers. It produces the same 
-answers, surrounded by enough explanation that the reader actually learns from them.
+In other words: Yapper **does not** produce better answers. It produces the same 
+answers, but surrounded by enough explanation that the reader actually learns from them.
 
 ---
 
@@ -41,14 +40,13 @@ answers, surrounded by enough explanation that the reader actually learns from t
 Consider the following common examples of under-explained AI responses in 
 software development contexts:
 
-**Code review:** `"Use early return here"` — correct, but why? What happens if you 
+**Code review:** `"Use early return here"` - correct, but why? What happens if you 
 don't? Is it a performance issue, a readability issue, a correctness issue?
 
-**Commit message:** `"fix auth bug"` — six months from now, what does this mean? 
+**Commit message:** `"fix auth bug"` - six months from now, what does this mean? 
 Which auth bug? What caused it? What did the fix actually change?
 
-**Debugging response:** `"Check your async/await usage"` — where? How? What am I 
-looking for? What does incorrect usage look like versus correct usage?
+**Debugging response:** `"Check your async/await usage"` - where? How? What are we looking for? What does incorrect usage look like versus correct usage?
 
 In each of these cases, the response is technically not wrong. But it fails the 
 reader who needs to act on it. Yapper addresses this failure mode directly.
@@ -77,7 +75,7 @@ agent's response generation behaviour through a set of hard constraints:
    transitional language from an approved list.
 
 6. **Accuracy override:** Despite all of the above, the model must not sacrifice 
-   accuracy for length. If it is unsure of a detail, it must say so — at length.
+   accuracy for length. If it is unsure of a detail, it must say so - at length.
 
 ---
 
