@@ -8,7 +8,7 @@
 4. [Mode Selection Guide](#mode-selection-guide)
 5. [Integration Patterns](#integration-patterns)
 6. [Advanced Usage](#advanced-usage)
-7. [Frequently Asked Questions](#frequently-asked-questions)
+7. [One might wonder](#one-might-wonder)
 
 ---
 
@@ -104,15 +104,14 @@ agent's response generation behaviour through a set of hard constraints:
 - You want to confuse your colleagues
 - You believe that even a null pointer dereference deserves to be described with 
   the gravity and formal prose that such a treacherous event rightly merits
-- It is Friday afternoon
 
 ---
 
-## Frequently Asked Questions
+## One might wonder
 
 **Q: Does Yapper slow down responses?**  
 A: Yes. Longer responses take longer to generate. This is a deliberate tradeoff. 
-If you need speed, use Tech Bro mode or disable Yapper.
+If you need speed, use Tech Bro mode or disable Yapper. Or use Caveman :))
 
 **Q: Can I use Yapper for non-code tasks?**  
 A: Yes. Yapper applies to all responses, not just code. It works particularly 
@@ -123,7 +122,4 @@ A: Code blocks are never expanded. Yapper only applies to prose. `/yapper-expand
 explicitly preserves all code blocks, URLs, and file paths.
 
 **Q: Is Victorian mode actually useful?**  
-A: Define "useful."
-
-**Q: Will my colleagues think I have too much time on my hands?**  
-A: Yes. This is a reasonable inference on their part.
+A: Define useful?
