@@ -1,8 +1,8 @@
 # 🗣️ Yapper
 
-> *why use few word when many word paint rich tapestry of meaning, context, and elaborated conceptual understanding?*
+> *Why use few words when many words paint rich tapestry of meaning, context, and elaborated conceptual understanding?*
 
-**Yapper** is a plugin/skill system for AI coding agents that enforces maximum verbosity, exhaustive elaboration, and the relentless expansion of every response to its fullest possible expression.
+**Yapper** is a plugin/skill system for AI coding agents that enforces maximum verbosity, exhaustive elaboration, as well as relentless expansion of every response to its fullest possible expression.
 
 Same answer. Significantly more words. Intentionally.
 
@@ -12,14 +12,14 @@ Same answer. Significantly more words. Intentionally.
 
 Excellent question. Allow us to elaborate at length.
 
-There are many legitimate scenarios in which one might desire — nay, *require* — a response of substantially greater verbal length and explanatory depth than what a typical AI assistant might produce:
+There are many legitimate scenarios in which one might *require* - a response of substantially greater verbal length and explanatory depth than what a typical AI assistant might produce:
 
-- **Onboarding developers** who need full context, not just answers
+- **Onboarding developers** who need full context, not just cold answers
 - **Writing documentation** that must explain *why*, not just *what*
 - **Teaching concepts** to non-experts who benefit from elaboration
 - **PR reviews** that actually explain the problem instead of just flagging it
-- **Commit messages** that future-you will thank present-you for
-- **You just really like reading**
+- **Commit messages** that future-you will thank present-you for this
+- **You just really like reading** or have too much API credits
 
 ---
 
@@ -29,7 +29,7 @@ There are many legitimate scenarios in which one might desire — nay, *require*
 
 **Normal AI:**
 ```
-Inline object prop causes re-render. Use useMemo.
+Your issue here is that the inline object prop causes re-render. You will need to use useMemo.
 ```
 
 **Yapper (Professor mode):**
@@ -93,19 +93,19 @@ Tested on: Chrome 124, Safari 17, Firefox 125
 | `techbro` | 💼 | +50% | Startup-polished, KPI-aware | Synergising your verbal bandwidth |
 | `professor` | 🎓 | +150% | Clear, educational | Code review, explanations (default) |
 | `thesis` | 📚 | +300% | Academic, thorough | Documentation, deep dives |
-| `victorian` | 🏛️ | +500% | Formal, dramatic, archaic | Chaos. Pure chaos. |
+| `victorian` | 🏛️ | +500% | Formal, dramatic, archaic | We don't really know |
 
 ### 💼 Tech Bro (Lite)
 Responses are expanded slightly, but every elaboration is framed in terms of scalability, impact, and velocity. Sentences are complete and optimised for stakeholder alignment. Abbreviations are spelled out so the whole team can action on the same learnings. A touch of startup polish is applied to every reply without overwhelming the reader's bandwidth with excessive elaboration.
 
 ### 🎓 Professor (Default)
-The default mode. Every concept is defined when first introduced. Reasoning is shown, not just conclusions. Important points are restated in different wording to reinforce understanding. Transitions are used liberally. This is the mode that will actually make your responses better.
+The default mode. Every concept is defined when first introduced. The whole reasoning process is shown, not just conclusions. Important points are restated in different wording to reinforce understanding. Transitions are used liberally. This is the mode that will actually make your responses better.
 
 ### 📚 Thesis (Ultra)
-Maximum academic verbosity. Step-by-step reasoning. Examples and analogies for every concept. Each conclusion is reached through a visible chain of logic. Your colleagues will think you have too much time on your hands. They are correct.
+Maximum academic verbosity. Step-by-step reasoning. Examples and analogies for every concept. If the subject is complex, citations enter the chat. Each conclusion is reached through a visible chain of logic.
 
 ### 🏛️ Victorian Ultra
-Forsooth, this mode doth render every humble technical utterance into a grand soliloquy of extraordinary formal construction, wherein even the most trifling of boolean comparisons is accorded the grave ceremonial weight it so richly deserves. Deprecated APIs are mourned. Semicolons are celebrated.
+Forsooth, this mode doth render every humble technical utterance into a grand soliloquy of extraordinary formal construction, wherein even the most trifling of boolean comparisons is accorded the grave ceremonial weight it so richly deserves. 
 
 ---
 
@@ -166,7 +166,7 @@ TOKENS USED:          ~300% of normal
 TECHNICAL ACCURACY:   100%
 RESPONSE SPEED:       Slower, but "more thoughtful"
 CLARITY:              Maximized
-DEVELOPER CONFIDENCE: Significantly elevated
+DEVELOPER CONFIDENCE: ???
 COLLEAGUES' CONCERN:  Moderate to high
 ```
 
@@ -196,7 +196,7 @@ Most AI tools optimise for brevity. Fewer tokens. Faster answers. Shorter everyt
 
 Yapper takes the opposite position: that many questions, concepts, pull requests, and code reviews are being systematically under-explained, and that the developer reading the response would benefit enormously from a little more context, a restatement of the conclusion, and an explanation of *why* — not just *what*.
 
-In other words: your future self, reading a commit message at 11pm six months from now, deserves better than `fix bug`.
+In other words: your future self (or your coworkers), reading a commit message at 11pm six months from now, deserves better than `fix bug`.
 
 ---
 
