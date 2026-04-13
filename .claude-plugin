@@ -1,0 +1,37 @@
+{
+  "name": "yapper",
+  "display_name": "Yapper",
+  "description": "Forces AI responses to be maximally verbose, elaborated, and thoroughly explained. Expands all output by 200–400%. Zero accuracy loss. The philosophical inverse of compression.",
+  "version": "1.0.0",
+  "author": "USER",
+  "license": "MIT",
+  "homepage": "https://github.com/USER/yapper",
+  "skills": [
+    "skills/yapper.skill"
+  ],
+  "commands": [
+    "commands/yapper.md",
+    "commands/yapper-commit.md",
+    "commands/yapper-review.md",
+    "commands/yapper-help.md"
+  ],
+  "hooks": {
+    "session_start": "hooks/session_start.md"
+  },
+  "settings": {
+    "yapper_autostart": true,
+    "yapper_default_mode": "professor"
+  },
+  "tags": [
+    "verbosity",
+    "documentation",
+    "explanation",
+    "elaboration",
+    "review",
+    "teaching"
+  ],
+  "compatibility": {
+    "claude_code": ">=1.0.0",
+    "codex": ">=1.0.0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "yapper",
+  "display_name": "Yapper",
+  "description": "Enforces maximum verbosity and thorough elaboration across all AI responses. The philosophical inverse of compression. Same answer — significantly more words — intentionally.",
+  "version": "1.0.0",
+  "author": "USER",
+  "entry_point": "plugins/yapper/SKILL.md",
+  "activation_commands": [
+    "/yapper",
+    "/yapper techbro",
+    "/yapper professor",
+    "/yapper thesis",
+    "/yapper victorian"
+  ],
+  "deactivation_commands": [
+    "stop yapping"
+  ],
+  "utility_commands": [
+    "/yapper-commit",
+    "/yapper-review",
+    "/yapper-expand",
+    "/yapper-help"
+  ],
+  "homepage": "https://github.com/USER/yapper",
+  "license": "MIT",
+  "tags": ["verbosity", "documentation", "elaboration", "review"],
+  "gemini_cli_version": ">=1.0.0"
+}
