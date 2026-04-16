@@ -115,14 +115,14 @@ Forsooth, this mode doth render every humble technical utterance into a grand so
 
 | Agent | Command |
 |-------|---------|
-| **Claude Code** | `claude plugin marketplace add USER/yapper && claude plugin install yapper@yapper` |
+| **Claude Code** | `claude plugin marketplace add dzan314/yapper && claude plugin install yapper@yapper` |
 | **Codex** | Clone repo → `/plugins` → Search "Yapper" → Install |
-| **Gemini CLI** | `gemini extensions install https://github.com/USER/yapper` |
-| **Cursor** | `npx skills add USER/yapper -a cursor` |
-| **Windsurf** | `npx skills add USER/yapper -a windsurf` |
-| **Copilot** | `npx skills add USER/yapper -a github-copilot` |
-| **Cline** | `npx skills add USER/yapper -a cline` |
-| **Any other** | `npx skills add USER/yapper` |
+| **Gemini CLI** | `gemini extensions install https://github.com/dzan314/yapper` |
+| **Cursor** | `npx skills add dzan314/yapper -a cursor` |
+| **Windsurf** | `npx skills add dzan314/yapper -a windsurf` |
+| **Copilot** | `npx skills add dzan314/yapper -a github-copilot` |
+| **Cline** | `npx skills add dzan314/yapper -a cline` |
+| **Any other** | `npx skills add dzan314/yapper` |
 
 ---
 
