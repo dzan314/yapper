@@ -187,6 +187,8 @@ Yapper takes the opposite position: that many questions, concepts, pull requests
 
 In other words: your future self (or your coworkers), reading a commit message at 11pm six months from now, deserves better than `fix bug`.
 
+****NOTE**: The use of energy and water by LLMs has a signifcant environmental and societal impact. This project does not encourage wasting precious resources.**
+
 ---
 
 ## 📄 License
