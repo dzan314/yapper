@@ -1,0 +1,15 @@
+{
+  "name": "yapper-evals",
+  "version": "1.0.0",
+  "description": "Eval suite for the Yapper verbosity skill",
+  "type": "module",
+  "scripts": {
+    "eval": "node eval.js",
+    "eval:quick": "node eval.js --suite quick",
+    "eval:professor": "node eval.js --mode professor",
+    "eval:json": "node eval.js --json > results.json"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  }
+}
