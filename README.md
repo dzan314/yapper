@@ -171,6 +171,22 @@ The metrics are as follows:
 | Accuracy | checks that key technical terms are present in the response (e.g. useMemo, reference, equality for the React question) |
 | Latency | avg response time per mode |
 
+**Running**
+
+First:
+```
+cd evals
+npm install
+```
+
+Afterwards:
+| Command | Description |
+| --------|--------------|
+| ```ANTHROPIC_API_KEY=<your_key> npm run eval``` | full eval, all modes |
+| ```ANTHROPIC_API_KEY=<your_key> npm run eval:quick``` | 2 prompts only, fast(er) |
+| ```ANTHROPIC_API_KEY=<your_key> npm run eval:professor``` | single mode |
+| ```ANTHROPIC_API_KEY=<your_key> npm run eval:json``` | machine-readable output |
+
 
 ## 🗺️ Repository Structure
 
