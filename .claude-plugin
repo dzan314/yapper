@@ -3,9 +3,9 @@
   "display_name": "Yapper",
   "description": "Forces AI responses to be maximally verbose, elaborated, and thoroughly explained. Expands all output by 200–400%. Zero accuracy loss. The philosophical inverse of compression.",
   "version": "1.0.0",
-  "author": "USER",
+  "author": "dzan314",
   "license": "MIT",
-  "homepage": "https://github.com/USER/yapper",
+  "homepage": "https://github.com/dzan314/yapper",
   "skills": [
     "skills/yapper.skill"
   ],
