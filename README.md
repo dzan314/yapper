@@ -6,7 +6,7 @@
 
 Same answer. Significantly more words. Intentionally.
 
-*This project is inspired by, and developed as a contrast to, @JuliusBrussee viral [Caveman](https://github.com/JuliusBrussee/caveman) project.* 🪨🧠
+*This project is inspired by, and developed as a contrast to, @JuliusBrussee viral [Caveman](https://github.com/JuliusBrussee/caveman) project.* 🪨
 
 ---
 
@@ -160,6 +160,17 @@ Forsooth, this mode doth render every humble technical utterance into a grand so
 | Multi-agent support | ✅ |
 
 ---
+
+## Metrics
+
+What it measures:
+
+| Metric | Explanation |
+|--------|-------------|
+| Expansion | ratio word count vs. baseline (raw Claude with no system prompt) |
+| Accuracy | checks that key technical terms are present in the response (e.g. useMemo, reference, equality for the React question) |
+| Latency | avg response time per mode |
+
 
 ## 🗺️ Repository Structure
 
