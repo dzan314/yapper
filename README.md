@@ -163,7 +163,7 @@ Forsooth, this mode doth render every humble technical utterance into a grand so
 
 ## Metrics
 
-What it measures:
+The metrics are as follows:
 
 | Metric | Explanation |
 |--------|-------------|
@@ -184,7 +184,7 @@ What it measures:
 /hooks/session_start.md        ← Auto-activation hook
 /.claude-plugin                ← Claude plugin config
 /gemini-extension.json         ← Gemini CLI config
-/evals/                        ← Evaluation methodology
+/evals/                        ← Evaluation and its methodology
 /docs/                         ← Extended documentation
 ```
 
