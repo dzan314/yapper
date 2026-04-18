@@ -6,7 +6,7 @@
 
 Same answer. Significantly more words. Intentionally.
 
-*This project is inspired by, and developed as a contrast to, @JuliusBrussee viral [Caveman](https://github.com/JuliusBrussee/caveman) project.* 🪨
+*This project is inspired by @JuliusBrussee viral [Caveman](https://github.com/JuliusBrussee/caveman)* 🪨
 
 ---
 
