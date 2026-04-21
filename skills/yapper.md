@@ -2,7 +2,7 @@
 name: yapper
 version: 1.1.0
 description: Forces AI responses to be maximally verbose, elaborated, and explained. Expands all output by 200–400%. Zero accuracy loss.
-author: USER
+author: dzan314
 license: MIT
 ---
 
